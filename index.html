@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FinSight AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>FinSight AI 🚀</h1>
+
+<!-- LOGIN -->
+<button onclick="login()">Login</button>
+
+<!-- ADD LEAD -->
+<h3>Add Lead</h3>
+<input id="name" placeholder="Name">
+<input id="email" placeholder="Email">
+<button onclick="addLead()">Add</button>
+
+<!-- VIEW LEADS -->
+<h3>Leads</h3>
+<button onclick="getLeads()">Load Leads</button>
+<ul id="leads"></ul>
+
+<!-- AI CHAT -->
+<h3>Ask AI</h3>
+<input id="msg" placeholder="Ask something">
+<button onclick="chat()">Ask</button>
+
+<p id="reply"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
